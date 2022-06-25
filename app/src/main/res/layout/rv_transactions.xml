@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        android:weightSum="5">
+
+
+        <TextView
+            android:id="@+id/textViewTotalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/textViewHundredRupeeCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/textViewTwoHundredRupeeCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/textViewFiveHundredRupeeCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/textViewTwoThousandRupeeCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
